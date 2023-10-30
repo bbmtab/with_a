@@ -10,6 +10,6 @@ services:
       - PUID=0
       - PGID=0
       - UMASK=022
-      - TZ=UTC
+      - TZ=Asia/Jakarta
     container_name: alist
-    image: 'xhofe/alist-aria2:latest'
+    image: 'harmoniajaya/ali-ari:v1'
