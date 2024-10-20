@@ -8,5 +8,5 @@ WORKDIR /opt/alist/
   #/install.sh
 
 ENV PUID=0 PGID=0 UMASK=022
-EXPOSE 5244 6800
+EXPOSE 443 5244 6800
 ENTRYPOINT [ "/entrypoint.sh" ]
