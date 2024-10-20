@@ -1,7 +1,6 @@
 FROM harmoniajaya/ali-ari:latest
 LABEL MAINTAINER="i@nn.ci"
 VOLUME /opt/alist/data/
-EXPOSE
 WORKDIR /opt/alist/
 #COPY entrypoint.sh /entrypoint.sh
 #COPY install.sh /install.sh
