@@ -1,6 +1,6 @@
 FROM harmoniajaya/ali-ari:latest
 LABEL MAINTAINER="i@nn.ci"
-EXPOSE  5244
+EXPOSE  443
 VOLUME /opt/alist/data/
 WORKDIR /opt/alist/
 #COPY entrypoint.sh /entrypoint.sh
@@ -8,5 +8,5 @@ WORKDIR /opt/alist/
 #RUN chmod +x /entrypoint.sh
   #/install.sh
 
-ENV PUID=0 PGID=0 UMASK=022 PORT=5244:5244
+ENV PUID=0 PGID=0 UMASK=022 PORT=443:5244
 ENTRYPOINT [ "/entrypoint.sh" ]
