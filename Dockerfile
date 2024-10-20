@@ -1,7 +1,7 @@
-FROM harmoniajaya/ali-ari:latest
+FROM xhofe/alist-aria2
 LABEL MAINTAINER="i@nn.ci"
 VOLUME /opt/alist/data/
-EXPOSE 443
+EXPOSE
 WORKDIR /opt/alist/
 #COPY entrypoint.sh /entrypoint.sh
 #COPY install.sh /install.sh
@@ -9,5 +9,5 @@ WORKDIR /opt/alist/
   #/install.sh
 
 ENV PUID=0 PGID=0 UMASK=022
-#EXPOSE 443 5244 6800
+EXPOSE  5244 6800
 ENTRYPOINT [ "/entrypoint.sh" ]
