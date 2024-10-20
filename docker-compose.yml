@@ -12,4 +12,4 @@ services:
       - UMASK=022
       - TZ=Asia/Jakarta
     container_name: ali-ari
-    image: 'harmoniajaya/ali-ari:v1'
+    image: 'harmoniajaya/ali-ari:latest'
